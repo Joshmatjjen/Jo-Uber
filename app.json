@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Jo Uber",
+    "slug": "jo-uber",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/jo-uber-icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/jo-uber_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#202225"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage":  "./assets/images/jo-uber-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "server",
+      "favicon":  "./assets/images/jo-uber-icon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://uber.dev/"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
